@@ -1,0 +1,13 @@
+Project Name: Our Vibe, Enjoy your Favourite Songs. 
+
+Main Page: With Animation and Select the Languages like (Tamil, Malayalam, Hindi, Telugu) and Copyright Page on footer. 
+
+Tamil: Select the Music Directors like (Anirudh, AR Rahman, GV Prakash, Ilayaraja) and Back button on footer side. 
+
+Malayalam, Hindi, Telugu: also same pattern. 
+
+After the Music Director Page: Give the Songs and add more than 25 Famous Songs with Play Button and Download Button. 
+
+Same pattern to Malayalam, Hindi, Telugu. 
+
+Give Our Best! 

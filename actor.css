@@ -1,0 +1,373 @@
+body {
+    background: linear-gradient(to left, darkviolet, orangered);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;   
+}
+
+.content {
+    animation: cont 1s linear 0s 1;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.poster {
+    height: 280px;
+    width: 280px;
+    margin-left: 650px;
+    border: 3px dashed black;
+    border-radius: 50%;
+    animation: actor 5s linear 0s infinite;
+} 
+
+ @keyframes actor {
+    100% { transform: rotateY(-360deg); }
+} 
+
+.margin {
+    height: 3px;
+    width: 98%;
+    background-color: black;
+    margin: 75px 0px 0px 15px;
+}
+
+.playlist {
+    height: 200px;
+    width: 50%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 25px;
+    margin: 50px 0px 0px 377px;
+}
+
+.name {
+    color: white;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    margin: -165px 0px 0px 567px;
+}
+
+.thumbnail1 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 603px;
+    border-radius: 25px;
+}
+
+.thumbnail2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 853px;
+    border-radius: 25px;
+}
+
+.thumbnail3 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 1103px;
+    border-radius: 25px;
+}
+
+.thumbnail4 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 1353px;
+    border-radius: 25px;
+}
+
+.thumbnail5 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 1603px;
+    border-radius: 25px;
+}
+
+.thumbnail6 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 1853px;
+    border-radius: 25px;
+}
+
+.thumbnail7 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 2103px;
+    border-radius: 25px;
+}
+
+.thumbnail8 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 2353px;
+    border-radius: 25px;
+}
+
+.thumbnail9 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 2603px;
+    border-radius: 25px;
+}
+
+.thumbnail0 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 403px;
+    top: 2853px;
+    border-radius: 25px;
+}
+
+audio {
+    position: absolute;
+    margin: -105px 0px 0px 567px;
+    width: 480px;
+}
+
+.anchor {
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px; 
+    left: 47%;
+}
+
+.anchor:hover {
+    color: red;
+    background-color: white;
+    transition: 1s;
+}
+
+@keyframes cont {
+    from { transform: translate(0px, 750px); } 
+    to { transform: translate(0px, 0px); } 
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+
+    .poster {
+        margin-left: 440px;
+    }
+
+    .margin {
+        margin-left: 10px;
+    }
+    
+    .playlist {
+        width: 800px;
+        margin-left: 165px;
+    }
+
+    .thumbnail1 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail2 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail3 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail4 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail5 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail6 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail7 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail8 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail9 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .thumbnail0 {
+        position: absolute;
+        left: 195px;
+    }
+
+    .name {
+        position: absolute;
+        margin: -165px 0px 0px 352px;
+    }
+
+    audio {
+        position: absolute;
+        margin: -105px 0px 0px 352px;
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .poster {
+        height: 250px;
+        width: 250px;
+        margin-left: 110px;
+    }
+
+    .margin {
+        margin-left: 5px;
+    }
+
+    .playlist {
+        height: 170px;
+        width: 430px;
+        margin-left: 20px;
+    }
+
+    .thumbnail1 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 504px;
+        left: 50px;
+    }
+
+    .thumbnail2 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 724px;
+        left: 50px;
+    }
+
+    .thumbnail3 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 944px;
+        left: 50px;
+    }
+
+    .thumbnail4 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 1164px;
+        left: 50px;
+    }
+
+    .thumbnail5 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 1384px;
+        left: 50px;
+    }
+
+    .thumbnail6 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 1604px;
+        left: 50px;
+    }
+
+    .thumbnail7 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 1824px;
+        left: 50px;
+    }
+
+    .thumbnail8 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 2044px;
+        left: 50px;
+    }
+
+    .thumbnail9 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 2264px;
+        left: 50px;
+    }
+
+    .thumbnail0 {
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        top: 2484px;
+        left: 50px;
+    }
+
+    .name {
+        position: absolute;
+        font-size: 17px;
+        margin: -145px 0px 0px 185px;
+    }
+
+    audio {
+        position: absolute;
+        margin: -105px 0px 0px 185px;
+        height: 70px;
+        width: 230px;
+    }
+
+    .anchor {
+        margin-left: -23px;
+    }
+
+} 

@@ -1,0 +1,64 @@
+body {
+     background: linear-gradient(to left,red, indigo);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     overflow: hidden; 
+}  
+
+h1 {
+     color: white;
+     text-align: center;
+     font-size: 50px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 320px;
+     animation: subscribe 1s linear 0s 1; 
+}
+
+span {
+     color: gold;
+}
+
+.anchor {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 27px;
+     text-decoration: none;
+     color: white;
+     background-color: red;
+     padding: 10px 15px;
+     border-radius: 10px;
+     position: relative;
+     top: 50px; 
+     left: 47%;
+     animation: button 1s linear 0s 1;
+}
+
+.anchor:hover {
+     color: red;
+     background-color: white;
+     transition: 1s;
+}
+
+@keyframes subscribe {
+    from { transform: translate(0px, 500px); } 
+    to { transform: translate(0px, 0px); } 
+} 
+
+@keyframes button {
+     from { 
+              position: relative;
+              top: 500px;
+              left: 47%;
+      } 
+     to { 
+              position: relative;
+              top: 50px;
+              left: 47%;
+      } 
+ } 
+
+@media screen and (max-width: 500px) {
+
+     .anchor {
+          left: 41%;
+     }
+}

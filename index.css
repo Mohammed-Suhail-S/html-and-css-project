@@ -1,0 +1,327 @@
+body {
+    background: linear-gradient(to left,red, indigo);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+}
+
+.home {
+    color: black;
+    text-decoration: none;
+    margin: -300px 23px 0px 0px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: home 3s linear 1s 1;
+    animation-fill-mode: forwards;
+}
+
+.home:hover {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.title .our,.vibe {
+    height: 275px;
+    width: 275px;
+    display: flex;
+}
+
+.our { 
+    margin: 250px 0px 0px -100px;
+    animation: title 2s ease-in-out 0s 1;
+    animation-fill-mode: forwards;
+}
+
+.vibe {
+    margin: -285px 0px 0px 1500px;
+    animation: title2 2s ease-in-out 0s 1;
+    animation-fill-mode: forwards;
+}
+
+h4 {
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 600px 0px 0px 665px;
+    animation: h4 2s linear 0s 1;
+    animation-fill-mode: forwards;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    transform: translate(0px,500px);
+    animation: cont 2s linear 0s 1;
+    animation-fill-mode: forwards;
+}
+
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.tamil,.malayalam,.hindi,.telugu {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 35px;
+    border-radius: 50px;
+}
+
+.tamil {
+    background-color: blue;
+}
+
+.tamil:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+} 
+
+.malayalam {
+    background-color: red;
+}
+
+.malayalam:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.hindi {
+    background-color: goldenrod;
+}
+
+.hindi:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.telugu {
+    background-color: green;
+}
+
+.telugu:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+@keyframes home {
+    from { margin: -300px 23px 0px 0px; }
+    to { margin: 60px 23px 0px 0px; }
+}
+
+@keyframes title {
+    0% {
+           margin: 250px 0px 0px -100px;
+    }
+
+    50% {
+           margin: 250px 0px 0px 550px;
+    }
+
+    100% {
+           margin: -40px 0px 0px 550px;
+    }
+}
+
+@keyframes title2 {
+    0% {
+           margin: -285px 0px 0px 1500px;
+    }
+
+    50% {
+           margin: -285px 0px 0px 740px;
+    }
+
+    100% {
+           margin: -285px 0px 0px 740px;
+    }
+} 
+
+@keyframes h4 {
+    from { margin: 600px 0px 0px 665px; }
+    to { margin: -60px 0px 0px 665px; }
+}
+
+@keyframes cont {
+    from { transform: translate(0px,500px); }
+    to { transform: translate(0px,70px); }
+} 
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    animation: foot 2s linear 2s 1;
+    animation-fill-mode: forwards;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 250px auto;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0px;
+    margin: 100px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content ul li {
+    margin: 40px 15px 0px 0px;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-content ul li a:hover {
+    color: yellow;
+}
+
+.footer-content form {
+    margin-top: 50px; 
+}
+
+.footer-content input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 0px 25px 0px -5px;
+    font-size: 17px;
+} 
+
+.footer-content button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.footer-content button:hover {
+    background-color: white;
+    color: red;
+}
+
+.footer-content p {
+    margin: 60px;
+    font-size: 23px;
+}
+
+span {
+    color: gold;
+}
+
+@keyframes foot {
+    from { transform: translate(0px,500px); }
+    to { transform: translate(0px,0px); }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+
+    .header {
+        margin-top: -70px;
+    }
+
+    .home {
+        transform: translate(10px,30px);
+        font-size: 27px;
+    }
+
+    .our { 
+        transform: translate(-215px,10px);
+    }
+
+    .vibe {
+        transform: translate(-205px,0px);
+    }
+
+    h4 {
+        transform: translate(-210px,5px);
+        font-style: italic;
+    }
+
+    .button {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 5px;
+    }
+
+    .tamil,.malayalam,.hindi,.telugu {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+ 
+    .header {
+        margin-top: -70px;
+    }
+
+    .home {
+        transform: translate(10px,30px);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .our { 
+        transform: translate(-445px,-20px);
+    }
+
+    .vibe {
+        transform: translate(-640px,80px);
+    }
+
+    h4 {
+        font-size: 30px;
+        font-style: italic;
+        transform: translate(-475px,100px);
+    }     
+
+    h1 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+
+    .button {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 80px;
+    }
+
+    .tamil,.malayalam,.hindi,.telugu {
+        margin-top: 35px;
+    }
+}

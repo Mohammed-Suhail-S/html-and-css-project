@@ -1,0 +1,56 @@
+body {
+       background: linear-gradient(to left,red, indigo);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       overflow: auto; 
+}  
+
+.content {
+       text-align: center;
+       font-size: 23px;
+       margin-top: 50px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       animation: about 1s linear 0s 1; 
+}
+
+h1 {
+       color: deepskyblue;
+}
+
+p {
+       color: white;
+       text-align: justify;
+       text-align-last: center;
+       margin-top: 50px;
+       line-height: 40px;
+       letter-spacing: 3px;
+}
+
+.title {
+       color: gold;
+}
+
+.title2 {
+       color: limegreen;
+} 
+
+.anchor {
+       text-decoration: none;
+       color: white;
+       background-color: red;
+       padding: 10px 15px;
+       border-radius: 10px;
+       position: relative;
+       top: 50px; 
+}
+
+.anchor:hover {
+       color: red;
+       background-color: white;
+       transition: 1s;
+}
+
+@keyframes about {
+       from { transform: translate(0px, 1000px); } 
+       to { transform: translate(0px, 0px); } 
+}
